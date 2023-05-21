@@ -1,0 +1,16 @@
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\bin\Debug\Exam.exe.config
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\bin\Debug\Exam.exe
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\bin\Debug\Exam.pdb
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.csproj.AssemblyReference.cache
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.csproj.SuggestedBindingRedirects.cache
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\MainWindow.g.cs
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\App.g.cs
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam_MarkupCompile.cache
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam_MarkupCompile.lref
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\MainWindow.baml
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.g.resources
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.Properties.Resources.resources
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.csproj.GenerateResource.cache
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.csproj.CoreCompileInputs.cache
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.exe
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.pdb

@@ -23,6 +23,17 @@ namespace Exam
         public MainWindow()
         {
             InitializeComponent();
+
+            //list_window window = new list_window();
+            //window.Show();
+        }
+
+        private void vhod(object sender, RoutedEventArgs e)
+        {
+            list_window window = new list_window();
+            window.Show();
+            MainWindow window1 = new MainWindow();
+            window1.Close();
         }
     }
 }

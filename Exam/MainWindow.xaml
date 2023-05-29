@@ -15,7 +15,7 @@
         <TextBox HorizontalAlignment="Left" Margin="128,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Height="17"/>
         <TextBlock HorizontalAlignment="Left" Margin="85,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ru-ru" Text="Код"/></TextBlock>
         <Image HorizontalAlignment="Left" Height="26" Margin="231,115,0,0" VerticalAlignment="Top" Width="26" Source="/Resources/На авторизацию_Обновление кода.jpg"/>
-        <Button Content="Вход" HorizontalAlignment="Left" Margin="216,154,0,0" VerticalAlignment="Top" Height="19" Width="44"/>
+        <Button Content="Вход" HorizontalAlignment="Left" Margin="216,154,0,0" VerticalAlignment="Top" Height="19" Width="44" Click="vhod"/>
         <Button Content="Отмена" HorizontalAlignment="Left" Margin="152,154,0,0" VerticalAlignment="Top" Height="19" Width="49"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="299,1,0,0" VerticalAlignment="Top" Width="100" Source="/Resources/Лого ТНС.jpg"/>
 

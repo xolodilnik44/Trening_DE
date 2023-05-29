@@ -14,3 +14,5 @@ C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.csproj.GenerateResource.cac
 C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.csproj.CoreCompileInputs.cache
 C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.exe
 C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.pdb
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\list_window.g.cs
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\list_window.baml

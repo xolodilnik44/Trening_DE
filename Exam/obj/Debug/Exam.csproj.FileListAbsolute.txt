@@ -16,3 +16,8 @@ C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.exe
 C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.pdb
 C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\list_window.g.cs
 C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\list_window.baml
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\bin\Debug\EntityFramework.dll
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\bin\Debug\EntityFramework.xml
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam_Content.g.cs
+C:\Users\XoLoDiLnik\Desktop\exam\Exam\obj\Debug\Exam.csproj.CopyComplete

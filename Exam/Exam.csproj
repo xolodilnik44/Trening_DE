@@ -35,9 +35,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -56,6 +63,29 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Adr_ust.cs">
+      <DependentUpon>Base_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Base_model.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Base_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Set_Obr.cs">
+      <DependentUpon>Base_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>Base_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>Base_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>Base_model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Type_obr.cs">
+      <DependentUpon>Base_model.tt</DependentUpon>
+    </Compile>
     <Page Include="list_window.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -67,6 +97,16 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base_model.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Base_model.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Base_model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Base_model.edmx</DependentUpon>
     </Compile>
     <Compile Include="list_window.xaml.cs">
       <DependentUpon>list_window.xaml</DependentUpon>
@@ -94,6 +134,14 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EntityDeploy Include="Base_model.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Base_model.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Base_model.edmx.diagram">
+      <DependentUpon>Base_model.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -107,6 +155,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\На авторизацию_Обновление кода.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Base_model.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Base_model.Context.cs</LastGenOutput>
+      <DependentUpon>Base_model.edmx</DependentUpon>
+    </Content>
+    <Content Include="Base_model.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Base_model.edmx</DependentUpon>
+      <LastGenOutput>Base_model.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
